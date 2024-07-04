@@ -30,12 +30,21 @@ button{
     color: white;
     font-size: 30px;
 }
-
+.number:hover{
+    color: black;
+    background-color: blanchedalmond;
+    border-color: rgb(236, 208, 166);
+}
 .operator_add{
     background-color: rgb(234, 86, 36);
     color: white;
     font-size: 30px;
     border-color: rgb(237, 109, 59);
+}
+.operator_add:hover{
+    background-color: lightcoral;
+    color: black;
+    border-color: rgb(230, 112, 112);
 }
 
 .operator_sub{
@@ -44,12 +53,22 @@ button{
     font-size: 30px;
     border-color: rgb(195, 37, 195);
 }
+.operator_sub:hover{
+    background-color: lightpink;
+    color: black;
+    border-color: rgb(243, 149, 163);
+}
 
 .operator_mul{
     background-color: rgb(126, 202, 155);
     color: white;
     font-size: 30px;
     border-color: rgb(126, 202, 155);
+}
+.operator_mul:hover{
+    background-color: lightseagreen;
+    color: black;
+    border-color: rgb(16, 140, 134);
 }
 
 .operator_div{
@@ -58,10 +77,19 @@ button{
     font-size: 30px;
     border-color: rgb(34, 142, 7);
 }
-
+.operator_div:hover{
+    background-color: rgb(122, 225, 122);
+    color: black;
+    border-color: greenyellow;
+}
 .operator_equal{
     background-color: rgba(219, 33, 33, 0.935);
     color: white;
     font-size: 30px;
     border-color: rgba(219, 33, 33, 0.935);
+}
+.operator_equal:hover{
+    background-color: rgb(239, 118, 118);
+    color: black;
+    border-color: rgb(212, 84, 84);
 }
